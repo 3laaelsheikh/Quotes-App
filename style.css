@@ -1,0 +1,21 @@
+button{
+    padding:15px 30px ;
+    border: solid 1px  aqua;   
+    transition: all .5s;
+    border-radius: 20px;
+    font-size: 35px;
+    background-color: aqua;
+}
+
+button:hover 
+{
+    background-color:white;
+    color: black;
+}
+.qu{
+    font-size: 35px;
+}
+h1 {
+    font-size: 80px;
+    font-family: Impact;
+}
