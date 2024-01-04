@@ -1,21 +1,47 @@
-button{
-    padding:15px 30px ;
-    border: solid 1px  aqua;   
-    transition: all .5s;
-    border-radius: 20px;
-    font-size: 35px;
-    background-color: aqua;
-}
-
-button:hover 
-{
-    background-color:white;
-    color: black;
-}
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 10px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn21 {
+    background-image: linear-gradient(to right,
+        #6099fc,
+        #448fff,
+        #8843ef,
+        #1627e7);
+    box-shadow: 0 4px 15px 0 rgb(14, 61, 127);
+  }
 .qu{
     font-size: 35px;
 }
 h1 {
     font-size: 80px;
     font-family: Impact;
+}
+body{
+    background-color: rgb(175,152,156,5);
 }
